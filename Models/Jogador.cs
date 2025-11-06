@@ -10,7 +10,8 @@ namespace QRcodeGame.Models
         public string PlayerId { get; set; }
         public string Nome { get; set; }
         public int Pontuacao { get; set; }
-        public DateTime DataCadastro { get; set; }
+        public DateTime DataCadastro { get; set; } = DateTime.Now;
+        
         // Inventário do jogador
         public Inventario Inventario { get; set; } = new Inventario();
 
@@ -23,6 +24,19 @@ namespace QRcodeGame.Models
         public bool RemoverItemDoInventario(string itemId, int quantidade = 1)
         {
             return Inventario.RemoveItem(itemId, quantidade);
+        }
+
+        public bool AdicionarPersonagemAoInventario(Personagem personagem)
+        {
+            try
+            {
+                Inventario.AdicionarPersonagem(personagem);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }

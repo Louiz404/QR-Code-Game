@@ -16,10 +16,25 @@ namespace QRcodeGame.Models
     {
         // Lista de pilhas de itens
         public List<ItemStack> Items { get; set; } = new List<ItemStack>();
+        // Lista de personagens no inventário
+        public List<Personagem> Personagens { get; } = new List<Personagem>();
 
         // Quantidade máxima de slots (cada pilha conta como 1 slot)
+        
         public int Capacidade { get; set; } = 30;
         public Jogador Jogador { get; set; }
+        
+
+        // Implementar métodos para adicionar Personagem.
+        public void AdicionarPersonagem(Personagem personagem)
+        {
+            if (personagem == null) throw new ArgumentNullException("O personagem não se encontra disponível, ou não existe.", nameof(personagem));
+            if (Jogador == null) throw new InvalidOperationException("O inventário não está associado a um jogador.");
+            if (Personagens.Any(p => p.PersonagemId == personagem.PersonagemId))
+                throw new InvalidOperationException("O personagem já está no inventário.");
+            
+            Personagens.Add(personagem);
+        }
 
         // Tenta adicionar uma quantidade do item. Retorna quantidade restante que não coube (0 = tudo encaixou).
         public int AddItem(Item item, int quantidade = 1)
@@ -27,8 +42,8 @@ namespace QRcodeGame.Models
             if (item == null) throw new ArgumentNullException("O item não se encontra disponivel, ou não existe.", nameof(item));
             if (quantidade <= 0) return 0;
             if (Jogador == null) throw new InvalidOperationException("O inventário não está associado a um jogador.");
-                          
-            
+
+
             // Se empilhável, tenta colocar nas pilhas existentes
             if (item.Stackable)
             {
