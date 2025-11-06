@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\QRcodeGame\\QRcodeGame.csproj": {}
+    "C:\\Users\\luiz\\Documents\\Projetos\\QR-Code-Game\\QRcodeGame.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\QRcodeGame\\QRcodeGame.csproj": {
+    "C:\\Users\\luiz\\Documents\\Projetos\\QR-Code-Game\\QRcodeGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\QRcodeGame\\QRcodeGame.csproj",
+        "projectUniqueName": "C:\\Users\\luiz\\Documents\\Projetos\\QR-Code-Game\\QRcodeGame.csproj",
         "projectName": "QRcodeGame",
-        "projectPath": "C:\\Projetos\\QRcodeGame\\QRcodeGame.csproj",
-        "packagesPath": "C:\\Users\\luiz.junior\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\QRcodeGame\\obj\\",
+        "projectPath": "C:\\Users\\luiz\\Documents\\Projetos\\QR-Code-Game\\QRcodeGame.csproj",
+        "packagesPath": "C:\\Users\\luiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luiz\\Documents\\Projetos\\QR-Code-Game\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\luiz.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
