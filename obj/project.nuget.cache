@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "d9QHSzEQenE=",
+  "dgSpecHash": "boBrsdEo8Xw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\thefr\\OneDrive\\Documentos\\QR-Code-Game\\QRcodeGame.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Projetos\\QRcodeGame\\QRcodeGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luiz.junior\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\luiz.junior\\.nuget\\packages\\qrcoder\\1.7.0\\qrcoder.1.7.0.nupkg.sha512",
+    "C:\\Users\\luiz.junior\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,9 +1,10 @@
-[Bb] in/
+[Bb]in/
+[Oo]bj/
 [Dd]ebug/
 [Rr]elease/
-[Oo] bj/
+
 bin/
 obj/
 
-
-*cspro.user
+*.csproj.user
+*.csproj.user

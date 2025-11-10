@@ -22,7 +22,7 @@ namespace QRcodeGame.Services
     {
         public void CerebroInimigo(Inimigo objInimigo, Personagem objPlayer) // IA dos inimigos
         {
-            objInimigo.MoverPara(objPlaye.posicao);
+            objInimigo.MoverPara(objPlayer.posicao);
         }
     }
 
