@@ -1,3 +1,9 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using QRcodeGame.Models;
+
 // Toda a movimentação dos personagens e inimigos;
 // integrar com o Models
 // using QRcodeGame.Models
@@ -16,9 +22,9 @@ namespace QRcodeGame.Services
     {
         public void CerebroInimigo(Inimigo objInimigo, Personagem objPlayer) // IA dos inimigos
         {
-           objInimigo.MoverPara(objPlaye.posicao);
+            objInimigo.MoverPara(objPlaye.posicao);
         }
     }
-    
+
 
 }

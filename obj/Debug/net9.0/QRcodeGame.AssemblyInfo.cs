@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QRcodeGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c0ba858accb4ce58f4eed2bba34a311ea9a14d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c21bd208f22df2eb3bfc7bbe92638c0ae1f4459")]
 [assembly: System.Reflection.AssemblyProductAttribute("QRcodeGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QRcodeGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
