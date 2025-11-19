@@ -8,10 +8,7 @@ using QRcodeGame.Services;
 using System.Drawing;
 using System.Drawing.Imaging;
 
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
 var qr = new QRcodeGame.Services.QrService();
-QrService.GerarQRCode("https://x.com", "qrcode.png");
+QrService.GerarQRCode("https://youtu.be/dQw4w9WgXcQ?si=mGvnwZs-7WM8Ognj", "qrcode.png");
 
 Console.WriteLine("QR gerado!");

@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "4RgOCVFoKBM=",
+  "dgSpecHash": "7z0zxfHrmqQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\luiz\\Documents\\Projetos\\QR-Code-Game\\QRcodeGame.csproj",
+  "projectFilePath": "C:\\Users\\thefr\\OneDrive\\Documentos\\Programação\\QR-Code-Game\\QRcodeGame.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\luiz\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
-    "C:\\Users\\luiz\\.nuget\\packages\\qrcoder\\1.7.0\\qrcoder.1.7.0.nupkg.sha512",
-    "C:\\Users\\luiz\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+    "C:\\Users\\thefr\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\thefr\\.nuget\\packages\\qrcoder\\1.7.0\\qrcoder.1.7.0.nupkg.sha512",
+    "C:\\Users\\thefr\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\thefr\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.10\\microsoft.netcore.app.ref.9.0.10.nupkg.sha512",
+    "C:\\Users\\thefr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.10\\microsoft.windowsdesktop.app.ref.9.0.10.nupkg.sha512",
+    "C:\\Users\\thefr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.10\\microsoft.aspnetcore.app.ref.9.0.10.nupkg.sha512",
+    "C:\\Users\\thefr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.10\\microsoft.netcore.app.host.win-x64.9.0.10.nupkg.sha512"
   ],
   "logs": []
 }
