@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luiz\\Documents\\Projetos\\QR-Code-Game\\QRcodeGame.csproj": {}
+    "C:\\Users\\thefr\\OneDrive\\Documentos\\Programação\\QR-Code-Game\\QRcodeGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luiz\\Documents\\Projetos\\QR-Code-Game\\QRcodeGame.csproj": {
+    "C:\\Users\\thefr\\OneDrive\\Documentos\\Programação\\QR-Code-Game\\QRcodeGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luiz\\Documents\\Projetos\\QR-Code-Game\\QRcodeGame.csproj",
+        "projectUniqueName": "C:\\Users\\thefr\\OneDrive\\Documentos\\Programação\\QR-Code-Game\\QRcodeGame.csproj",
         "projectName": "QRcodeGame",
-        "projectPath": "C:\\Users\\luiz\\Documents\\Projetos\\QR-Code-Game\\QRcodeGame.csproj",
-        "packagesPath": "C:\\Users\\luiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luiz\\Documents\\Projetos\\QR-Code-Game\\obj\\",
+        "projectPath": "C:\\Users\\thefr\\OneDrive\\Documentos\\Programação\\QR-Code-Game\\QRcodeGame.csproj",
+        "packagesPath": "C:\\Users\\thefr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thefr\\OneDrive\\Documentos\\Programação\\QR-Code-Game\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\luiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thefr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -67,12 +67,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.10, 9.0.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[9.0.10, 9.0.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.10, 9.0.10]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.10, 9.0.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
