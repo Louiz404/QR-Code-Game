@@ -12,6 +12,6 @@ using System.Drawing.Imaging;
 Console.WriteLine("Hello, World!");
 
 var qr = new QRcodeGame.Services.QrService();
-qr.GerarQRCode("TOKEN12345", "qrcode.png");
+QrService.GerarQRCode("https://x.com", "qrcode.png");
 
 Console.WriteLine("QR gerado!");

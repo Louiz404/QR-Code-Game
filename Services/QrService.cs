@@ -4,26 +4,18 @@ using System.Linq;
 using System.Threading.Tasks;
 using QRcodeGame.Models;
 using QRCoder;
-using System.Drawing;
-using System.Drawing.Imaging;
+using System.IO;
 
 namespace QRcodeGame.Services
 {
     public class QrService
     {
-        public void GerarQRCode(string texto, string caminhoArquivo)
+        public static void GerarQRCode(string texto, string caminhoArquivo)
         {
-            using (QRCodeGenerator qrGenerator = new QRCodeGenerator())
-            {
-                QRCodeData qrCodeData = qrGenerator.CreateQrCode(texto, QRCodeGenerator.ECCLevel.Q);
-                using (QRCode qrCode = new QRCode(qrCodeData))
-                {
-                    using (Bitmap qrCodeImage = qrCode.GetGraphic(20))
-                    {
-                        qrCodeImage.Save(caminhoArquivo, ImageFormat.Png);
-                    }
-                }
-            }
+            using var qrGenerator = new QRCodeGenerator();
+            using var qrCodeData = qrGenerator.CreateQrCode(texto, QRCodeGenerator.ECCLevel.Q);
+            var pngBytes = new PngByteQRCode(qrCodeData).GetGraphic(20);
+            File.WriteAllBytes(caminhoArquivo, pngBytes);
         }
     }
 }

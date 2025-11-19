@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Threading.Tasks;
 
 namespace QRcodeGame.Models
@@ -24,6 +25,7 @@ namespace QRcodeGame.Models
         public string Descricao { get; set; }
         public string ImagemId { get; set; }
         public RaridadeTipo Raridade { get; set; }
+        public Vector3 posicao;
 
 
         public void ReceberDano(int dano)
@@ -35,6 +37,9 @@ namespace QRcodeGame.Models
         {
             Vida += quantidade;
         }
-
+        public bool EstaVivo()
+        {
+            return Vida > 0;
+        }
     }
 }
